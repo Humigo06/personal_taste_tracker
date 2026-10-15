@@ -16,7 +16,13 @@ for (let i = 0; i <= favoriteFoods.length; i++) {
 // "My #1 favorite food is Ramen" (copy/paste for all items)
 // "My #2 favorite food is Sushi"
 // ...etc.
-
+  // Six prints listing where each item in favorite foods array ranks
+console.log("My #1 favorite food is Donuts");
+console.log("My #2 favorite food is Pasta");
+console.log("My #3 favorite food is Pizza");
+console.log("My #4 favorite food is Brownies");
+console.log("My #5 favorite food is Cookies");
+console.log("My #6 favorite food is Sandwiches");
 
 
 // 4a. Create a function printFoodRecommendation(foodName) that prints out the following for the foodName provided
