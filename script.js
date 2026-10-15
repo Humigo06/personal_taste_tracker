@@ -29,10 +29,19 @@ console.log("My #6 favorite food is Sandwiches");
     // "Have you ever tried ____?"
     // "I always recommend ____ to friends."
     // "Trust me — ____ is delicious."
-    
+      // Function that prints three statements regarding food recommendations. Takes 1 parameter foodName (string)
+function printFoodRecommendation(foodName) {
+  console.log("Have you ever tried " + foodName + "?");
+  console.log("I always recommend " + foodName + " to friends.");
+  console.log("Trust me - " + foodName + " is delicious.");
+}
 
 
 // 4b. Call the function at least 3 times
+  // Calls printFoodRecommendation function three times
+printFoodRecommendation("Donuts");
+printFoodRecommendation("Brownies");
+printFoodRecommendation("Pizza");
 
 
 // Here's a list of 50 friends' favorite foods:
