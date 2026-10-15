@@ -66,7 +66,13 @@ console.log(foodsWithA);
 
 
 // 7. Create a new array longFoodNames for foods with names longer than 6 characters.
-
+  // Creates an array for foods with more than 6 characters
+let longFoodNames = [];
+for (let i = 0; i < friendFavorites.length; i++) {
+  if (friendFavorites[i].length > 6) {
+    longFoodNames.push(friendFavorites[i]);
+  }
+}
 
 
 // 8. Create another array shortFoodNames for foods 6 characters or shorter.
