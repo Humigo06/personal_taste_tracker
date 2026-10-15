@@ -6,7 +6,7 @@ let favoriteFoods = ["Brownies", "Pasta", "Pizza", "Donuts", "Cookies", "Sandwic
 
 // 2. Loop through the list and print: "One of my favorite foods is ______."
   // for loop listing all six items in favorite foods array
-for (let i = 0; i <= favoriteFoods.length; i++) {
+for (let i = 0; i < favoriteFoods.length; i++) {
   console.log("One of my favorite foods is " + favoriteFoods[i]);
 }
 
@@ -54,8 +54,8 @@ let friendFavorites = [
 let foodsWithA = [];
 for (let i = 0; i < friendFavorites.length; i++) {
   if (friendFavorites[i].includes("a")) {
-    console.log(favoriteFoods[i]);
-    foodsWithA.push(favoriteFoods[i]);
+    console.log(friendFavorites[i]);
+    foodsWithA.push(friendFavorites[i]);
   }
 }
 
@@ -78,9 +78,9 @@ for (let i = 0; i < friendFavorites.length; i++) {
 // 8. Create another array shortFoodNames for foods 6 characters or shorter.
   // Creates an array for foods with 6 or fewer characters
 let shortFoodNames = [];
-for (let i = 0; i < favoriteFoods.length; i++) {
-  if (favoriteFoods[i].length <= 6) {
-    shortFoodNames.push(favoriteFoods[i]);
+for (let i = 0; i < friendFavorites.length; i++) {
+  if (friendFavorites[i].length <= 6) {
+    shortFoodNames.push(friendFavorites[i]);
   }
 }
 
