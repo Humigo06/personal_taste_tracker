@@ -76,7 +76,13 @@ for (let i = 0; i < friendFavorites.length; i++) {
 
 
 // 8. Create another array shortFoodNames for foods 6 characters or shorter.
-
+  // Creates an array for foods with 6 or fewer characters
+let shortFoodNames = [];
+for (let i = 0; i < favoriteFoods.length; i++) {
+  if (favoriteFoods[i].length <= 6) {
+    shortFoodNames.push(favoriteFoods[i]);
+  }
+}
 
 
 // 9. Print both arrays and compare:
