@@ -87,7 +87,15 @@ for (let i = 0; i < favoriteFoods.length; i++) {
 
 // 9. Print both arrays and compare:
 // "There are more long-named foods." OR "There are more short-named foods."
-
+  // Prints both arrays, then compares them and prints and comparision statement
+console.log("longFoodNames:",longFoodNames,"\n" + "shortFoodNames:",shortFoodNames);
+if (longFoodNames.length > shortFoodNames.length) {
+  console.log("There are more long-named foods.");
+} else if (longFoodNames.length < shortFoodNames.length) {
+  console.log("There are more short-named foods.");
+} else {
+  console.logs("There are the same amount of long-named and short-named foods.");
+}
 
 // 10. STRETCH: Find the longest food name and print:
 // "The longest food name in the list is ______ with ___ characters."
