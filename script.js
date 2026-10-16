@@ -108,6 +108,8 @@ for (let i = 0; i < longFoodNames.length; i++) {
   if (mostCharacters < longFoodNames[i].length) {
     mostCharacters = longFoodNames[i].length;
     longestFoodName = longFoodNames[i];
+  } else if (mostCharacters === longFoodNames[i].length) {
+    longestFoodName += " and " + longFoodNames[i];
   }
 }
 console.log("The longest food name in the list is " + longestFoodName + " with " + mostCharacters + " characters.");
